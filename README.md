@@ -27,14 +27,11 @@
 
 ## 3-1. 프로젝트 디렉토리 구조
 ```
-Codyssey_WorkSpace/
-├── .git/           # Git 관리 폴더 (자동 생성, 수정 금지)
-├── app/            # 웹서버 소스코드
-│   └── index.html  # nginx가 서빙할 HTML 파일
-├── practice/       # 터미널 조작 실습용 폴더
-│   └── hello.txt   # 실습 중 생성한 파일
-├── Dockerfile      # 커스텀 이미지 빌드 설계도
-└── README.md       # 기술 문서
+docker-assignment/
+├── .git/            # Git 관리 폴더 (자동 생성)
+├── README.md        # 프로젝트 설명 및 기술 문서
+├── test.txt         # 과제 완료 테스트 파일 (Assignment complete)
+└── test_file.txt    # 도커 컨테이너에서 처음 생성한 파일
 ```
 
 **구성 기준**
