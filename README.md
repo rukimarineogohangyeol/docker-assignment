@@ -35,9 +35,10 @@ docker-assignment/
 ```
 
 **구성 기준**
-- `app/` → 웹서버 소스코드를 별도 폴더로 분리하여 Dockerfile의 COPY 경로를 명확하게 관리
-- `practice/` → 터미널 실습 내용을 저장소 루트와 분리하여 실습 흔적을 명확히 구분
-- `Dockerfile` → 저장소 루트에 위치시켜 `docker build .` 명령을 루트에서 바로 실행 가능하게 구성
+test_file.txt → 도커 컨테이너 내부의 /data 경로와 호스트 볼륨 간의 데이터 영속성(Persistence)을 검증하기 위해 생성된 실습 파일
+test.txt → 최종 과제 수행 완료(Assignment complete) 여부를 확인하고, 원격 저장소로의 Push가 정상적으로 작동하는지 테스트하기 위해 생성
+README.md → 저장소의 루트(Root)에 위치시켜 GitHub 접속 시 실습 과정과 트러블슈팅 내역을 즉시 확인할 수 있도록 구성
+
 ## 4. 터미널 조작 로그
 
 ### 현재 위치 확인
