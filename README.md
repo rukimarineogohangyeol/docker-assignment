@@ -35,11 +35,11 @@ docker-assignment/
 ```
 
 **구성 기준**
-test_file.txt → 도커 컨테이너 내부의 /data 경로와 호스트 볼륨 간의 데이터 영속성(Persistence)을 검증하기 위해 생성된 실습 파일
+ test_file.txt → 도커 컨테이너 내부의 /data 경로와 호스트 볼륨 간의 데이터 영속성(Persistence)을 검증하기 위해 생성된 실습 파일
 
-test.txt → 최종 과제 수행 완료(Assignment complete) 여부를 확인하고, 원격 저장소로의 Push가 정상적으로 작동하는지 테스트하기 위해 생성
+ test.txt → 최종 과제 수행 완료(Assignment complete) 여부를 확인하고, 원격 저장소로의 Push가 정상적으로 작동하는지 테스트하기 위해 생성
 
-README.md → 저장소의 루트(Root)에 위치시켜 GitHub 접속 시 실습 과정과 트러블슈팅 내역을 즉시 확인할 수 있도록 구성
+ README.md → 저장소의 루트(Root)에 위치시켜 GitHub 접속 시 실습 과정과 트러블슈팅 내역을 즉시 확인할 수 있도록 구성
 
 ## 4. 터미널 조작 로그
 
